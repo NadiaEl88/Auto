@@ -4,15 +4,15 @@ public class AppAuto {
 
 
         // Erzeuge zwei Autos
-        Auto auto1 = new Auto("ABC123", 0, 60, 8, 30);
-        Auto auto2 = new Auto( "DEF456", 0, 50, 10, 20);
+        Auto auto1 = new Auto("ABC123", 0, 60.0,8.0, 30.0);
+        Auto auto2 = new Auto( "DEF456", 0, 50.0, 10.0, 20.0);
 
         // Tanken und Fahren
-        auto1.tanken(20);
-        auto1.fahren(100);
+        auto1.tanken(20.0);
+        auto1.fahren(100.0);
 
-        auto2.tanken(25);
-        auto2.fahren(50);
+        auto2.tanken(30.0);
+        auto2.fahren(50.0);
 
         // Ausgabe der aktuellen Werte
         System.out.println("Auto 1 - Kilometerstand: " + auto1.getKilometerstand() +

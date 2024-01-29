@@ -28,7 +28,7 @@
      // Fahren-Methode
      public void fahren(double strecke) {
          if (strecke * Kraftstoffverbrauch <= Kraftstoffmenge) {
-             Kilometerstand += (int) strecke;
+             Kilometerstand += strecke;
              Kraftstoffmenge -= strecke * Kraftstoffverbrauch;
              System.out.println("Auto ist " + strecke + " Kilometer gefahren.");
          } else {
